@@ -1,0 +1,27 @@
+echo "# text-repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lackovalinda/test-repository.git
+git push -u origin master
+
+
+
+git config --global user.email "you@example.com"
+git config --global user.name "Linda"
+
+git config --local -l
+
+
+git push -u projektik master			//na spojenie s githubom, ak mi vypise fatal: The current branch master has no upstream branch.
+
+
+
+
+"adding existing file
+- create file in local directory
+- open git bash
+- change current working directory to your local repository
+git add .
+git commit -m "Add existing file"
+git push origin your-branch
